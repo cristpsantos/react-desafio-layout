@@ -1,10 +1,13 @@
+import './assets/styles/custom.scss';
 import './App.css';
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div>
-      BDS-Desafio layout navegação
-    </div>
+    <>
+      <Navbar />
+      <div>BDS-Desafio layout navegação</div>
+    </>
   );
 }
 export default App;
