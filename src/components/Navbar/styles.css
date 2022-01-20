@@ -1,24 +1,55 @@
-.main-menu {
-    margin-right: 0;
+* {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
-.main-nav {
-    min-height: 70px;
-    width: 100%;
+.nav-custom {
+    background-color: #F78B00;
+    height: 100%;
 }
 
-.nav-logo-text {
+.nav-custom-logo {
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.navbar-light .navbar-brand {
+   color: #00285F;
+   font-size: 24px;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #00285F;
     font-size: 24px;
-    font-weight: 700;
+ }
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #00285F;
+    font-size: 18px;
 }
 
-.nav-menu a {
-   padding-left: 40px;
-   width: 100%;
-   font-size: 18px;
-   font-weight: 400;
+.navbar-light .navbar-nav .nav-link {
+    color: #00285F;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00285F;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-toggler {
+    color: #00285F;
+    border-color: #00285F;
 }
 
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 40, 95)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media (min-width: 992px) {
+   .custom-container {
+       width: 992px;
+   } 
 }
