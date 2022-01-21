@@ -1,0 +1,94 @@
+.container {
+    padding: 0;
+}
+
+.car-card {
+    width: 296px;
+    height: 347px;
+    background: #EDEDED;
+    border-radius: 10px;
+    margin: 0 5px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 220.72px;
+    height: 165px;
+}
+
+.car-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+.car-description {
+    font-size: 14px;
+    color: #585858;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+}
+
+.button-custom {
+    width: 257.93px;
+    height: 40px;
+    background: #00285F;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media (min-width: 576px) {
+    .car-card {
+        width: 258px;
+    }
+
+    .button-custom {
+        width: 220px;
+    }
+
+    .car-description {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .car-card {
+        width: 349px;
+    }
+
+    .button-custom {
+        width: 307px;
+    }
+
+    .car-description {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    .car-card {
+        width: 296px;
+    }
+
+    .button-custom {
+        width: 258px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .car-card {
+        width: 307px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .button-custom {
+        width: 266px;
+    }
+}
