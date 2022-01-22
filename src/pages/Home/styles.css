@@ -63,3 +63,116 @@
     font-size: 18px;
     color: #585858;
 }
+
+@media (min-width: 576px) {
+    .card-custom {
+        width: 536px;
+        height: 365px;
+    }
+
+    .car-home {
+        width: 333px;
+        height: 199px;
+    }
+
+    .text-title {
+        font-size: 36px;
+    }
+
+    .text-description {
+        font-size: 20px;
+    }
+
+    .card-button-custom {
+        width: 536px;
+        height: 123px;
+    }
+
+    .button-custom {
+        margin: 0;
+    }
+
+    .description-custom {
+        margin: 0;
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-custom {
+        width: 728px;
+        height: 475px;
+    }
+
+    .car-home {
+        width: 333px;
+        height: 199px;
+    }
+
+    .text-title {
+        font-size: 36px;
+    }
+
+    .text-description {
+        font-size: 20px;
+    }
+
+    .card-button-custom {
+        width: 728px;
+        height: 123px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-custom {
+        width: 952px;
+        height: 579px;
+    }
+
+    .car-home {
+        width: 455px;
+        height: 272px;
+    }
+
+    .text-title {
+        font-size: 36px;
+    }
+
+    .text-description {
+        font-size: 20px;
+    }
+
+    .card-button-custom {
+        width: 952px;
+        height: 123px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-custom {
+        width: 1060px;
+        height: 365px;
+        align-items: flex-center;
+        text-align: left;
+        justify-content: center;
+        padding-left: 60px;
+    }
+
+    .car-home {
+        width: 333px;
+        height: 199px;
+    }
+
+    .text-title {
+        font-size: 36px;
+    }
+
+    .text-description {
+        font-size: 20px;
+    }
+
+    .card-button-custom {
+        width: 1060px;
+        height: 123px;
+    }
+}
