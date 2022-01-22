@@ -1,5 +1,6 @@
 import './styles.css'
 import CarCard from '../../assets/images/car-header.png';
+import { Link } from 'react-router-dom';
 const Home = () => {
     return(
         <>
@@ -19,11 +20,13 @@ const Home = () => {
                </div>
                <div className="card-button-custom">
                    <div className="container">
-                       <div className="row g-0 align-items-center ">
-                           <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                                <button className="btn button-custom">VER CATÁLOGOS</button>
+                       <div className="row align-items-center">
+                           <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                               <Link to="/catalog">
+                                    <button className="btn button-custom">VER CATÁLOGOS</button>
+                               </Link>
                            </div>
-                           <div className="col-12 col-sm-6 col-md-auto col-lg-auto col-xl-auto">
+                           <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                 <p className="description-custom">Comece agora a navegar</p>
                            </div>
                        </div>
